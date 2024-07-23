@@ -12,3 +12,11 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+
+import { inject } from '@vercel/analytics';
+
+if (environment.production) {
+  inject({ mode: 'production' });
+} else {
+  inject({ mode: 'development' });
+}

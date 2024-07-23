@@ -28,6 +28,14 @@
   <link rel="manifest" href="manifest.webmanifest">
 
   <meta name="theme-color" content="#1976d2">
+
+  <!-- Vercel Analytics Script -->
+  <script type="module">
+    import { Analytics } from 'https://vercel-analytics.vercel.app/script.js';
+    Analytics({ mode: 'production' });
+  </script>
+  <!-- End Vercel Analytics Script -->
+  
 </head>
 <body>
   <app-root></app-root>
