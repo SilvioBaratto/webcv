@@ -46,7 +46,7 @@
             "scripts": [
               "node_modules/aos/dist/aos.js"
             ],
-            "allowedCommonJsDependencies": ["aos"],
+            "allowedCommonJsDependencies": ["aos", "@cometchat-pro/chat"],
             "vendorChunk": true,
             "extractLicenses": false,
             "buildOptimizer": false,

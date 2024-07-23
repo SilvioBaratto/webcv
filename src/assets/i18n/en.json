@@ -1,101 +1,60 @@
 {
-
     "Header.Item1" : "About me",
     "Header.Item2" : "Experience",
     "Header.Item3" : "Projects",
     "Header.Item4" : "Contact",
     "Header.cvBtn" : "Resume",
-    "Header.cvName": "CV_Jose_Hernandez_Ingles.pdf",
+    "Header.cvName": "CV_Silvio_Baratto_Roldan.pdf",
 
     "Banner.Pretitle": "Hello! My name is",
-    "Banner.Description": "I have <span class='underline'>8 years of experience</span> developing systems, interfaces, bots, and technological solutions to make the web a better place. I focus on writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>, applying good practices and development standards.",
+    "Banner.Description": "I have <span class='underline'>extensive experience</span> in AI model development, data analytics, and software engineering. As the Founder of Nemo.AI, I leverage AI to drive innovation in sustainable fishing. I focus on writing and refactoring clean, reusable, and scalable code in various technologies, applying good practices and development standards.",
     "Banner.ActionBtn": "Get in touch",
 
     "AboutMe.Title": "About me",
     "AboutMe.Paragraphs": [
-        "In <span class='underline'>8 years of experience</span> I've covered many roles: <span class='underline'>System Analyst</span>, <span class='underline'>backend developer</span>, <span class='underline'>frontend developer</span>, and <span class='underline'>technical leader</span>. I love contributing my knowledge to create new things that help solve problems.",
-        "My capabilities also include implementing improvements in systems, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
-        "I also program things for my personal use, whether as a hobby or for utility.",
+        "In my career, I've covered many roles: <span class='underline'>Data Scientist</span>, <span class='underline'>Founder & CEO</span>, and <span class='underline'>AI Innovator</span>. I love contributing my knowledge to create new things that help solve problems.",
+        "My capabilities also include implementing improvements in systems, optimizing processes, and suggesting and executing ideas that add value to the projects I'm working on.",
+        "I also work on personal projects, whether as a hobby or for practical use.",
         "Some of the technologies that I have trained and worked on include (but are not limited to):"
     ],
 
-
     "Experience.Title": "Experience",
     "Experience.Jobs": [
-        
         {
-            "Tab": "Global",
-            "Title": "Fullstack developer",
-            "Date": "May 2023",
+            "Tab": "ECB",
+            "Title": "Data Scientist",
+            "Date": "March 2024 - Present",
             "Description": [
-                "Technical decision leader",
-                "Technical talent recruitment for the company",
-                "Department of Technology team leader",
-                "Creation and maintenance of an internal process management platform for sales courses",
-                "Programming of custom functions and plugins for customization of a WordPress platform",
-                "Implementation of continuous integration and daily backups.",
-                "Planning meetings with reports."
-            ]
-      },
-      {
-            "Tab": "Projex",
-            "Title": "Fullstack developer",
-            "Date": "December 2019 - Present",
-            "Description": [
-              "Creation and maintenance of a monitoring platform with graphics in WordPress.",
-              "Functional programming in templates and plugins to add the necessary monitoring features.",
-              "Implementation of continuous integration and daily backups.",
-              "Creation and maintenance of a second Monitoring Platform Done in Angular, Angular Material, Laravel, Mysql, RxJS, Sass with graphics (configurable), alarm system, and user management and configuration of general parameters.",
-              "Planning meetings in reports."
+                "Developed a GPT-2 PyTorch model to solve naming convention problems in financial datasets, improving data quality and compliance.",
+                "Developed a sentiment analysis tool for surveys.",
+                "Metadata management and maintenance."
             ]
         },
         {
-            "Tab": "Freelancer",
-            "Title": "Independent",
-            "Date": "May 2016 - Present",
+            "Tab": "Nemo.AI",
+            "Title": "Founder & CEO",
+            "Date": "June 2023 - Present",
             "Description": [
-              "Implementing continuous improvements, working on frontend and backend.",
-              "Creating platforms with Angular, Laravel, ExpressJS, WordPress programmed with functional, reactive, and object-oriented programming paradigms.",
-              "Automation of processes with data structures.",
-              "Design layout with SASS, Bootstrap, Materialize, Bulma, etc."
+                "At Nemo.AI, we use artificial intelligence to improve the sustainability, efficiency, and profitability of fishing."
             ]
         },
         {
-            "Tab": "Moebius",
-            "Title": "FullStack developer",
-            "Date": "July 2017 - October 2018",
+            "Tab": "Generali",
+            "Title": "Data Scientist",
+            "Date": "November 2023 - February 2024",
             "Description": [
-              "Leading a team of 4 people in the development of a Tourism Data management platform made in Angular, Laravel, and MySQL.",
-              "Implementation CI / CD in Azure. Refactoring and optimizing application load times.",
-              "Coding of API requests with RxJS.",
-              "Creation of modules with complex reactive forms",
-              "Writing weekly reports about goals and plans."
+                "Contributed to the development of a portfolio optimization software (WebAPP) using Python, Streamlit, and Flask."
             ]
         },
         {
-            "Tab": "TechLatam",
-            "Title": "Frontend developer",
-            "Date": "February 2016 - May 2017",
+            "Tab": "Luxottica",
+            "Title": "Logistics Automation Specialist",
+            "Date": "March 2021 - September 2021",
             "Description": [
-              "Creation of WordPress templates with ACF, functional programming in Javascript / jQuery, styles in SASS",
-              "integration of design improvements, and template loading times.",
-              "Effective communication with the design team, working with Avocode / Figma."
+                "Managed the successful implementation of two industrial logistics projects utilizing AGV (autonomous guided vehicle) technology (ASTI) at both Agordo and Sedico sites.",
+                "Conducted daily KPI analysis in Excel to optimize production processes and identify areas for improvement during the Ramp-Up and Production phases.",
+                "Utilized machine learning techniques, such as Random Forest and Naive Bayes, to prevent maintenance issues."
             ]
-        },
-        {
-            "Tab": "CANTV",
-            "Title": "System analyst",
-            "Date": "November 2015 - December 2016",
-            "Description": [
-              "Programming of new functionalities for an existing employee management platform made in Angular and ExpressJS.",
-              "Perform refactoring of old code. Ensuring compatibility of every dependency in every update, along with regular Angular update as well."
-            ]
-        },
-        {
-            "Tab": "IEP",
-            "Title": "English teacher",
-            "Date": "January 2015 - July 2015",
-            "Description": ["Teaching English at a basic level to an enrollment of more than 200 students."]
         }
     ],
 
