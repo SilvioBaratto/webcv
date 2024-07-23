@@ -31,14 +31,22 @@ export class ChatService {
     "What's the difference between a potato and your sister? One is fat, lumpy, and full of carbs. The other is a potato.",  
   ];
 
+  private usedJokes: Set<string> = new Set();
+
   constructor() { }
 
   sendMessage(message: string): Observable<string> {
-    // Select a random joke from the list
-    const randomJoke = this.jokes[Math.floor(Math.random() * this.jokes.length)];
-    const words = randomJoke.split(' ');
+    if (this.usedJokes.size === this.jokes.length) {
+      return of("Bot: No more jokes available.");
+    }
 
-    // Emit the entire message prefixed with "Bot: " as one single message
+    let randomJoke;
+    do {
+      randomJoke = this.jokes[Math.floor(Math.random() * this.jokes.length)];
+    } while (this.usedJokes.has(randomJoke));
+
+    this.usedJokes.add(randomJoke);
+
     return of(`${randomJoke}`);
   }
 
