@@ -4,18 +4,16 @@
     "Header.Item3" : "Projects",
     "Header.Item4" : "Contact",
     "Header.cvBtn" : "Resume",
-    "Header.cvName": "CV_Silvio_Baratto_Roldan.pdf",
+    "Header.cvName": "CV_Silvio.pdf",
 
-    "Banner.Pretitle": "Hello! My name is",
-    "Banner.Description": "I have <span class='underline'>extensive experience</span> in AI model development, data analytics, and software engineering. As the Founder of Nemo.AI, I leverage AI to drive innovation in sustainable fishing. I focus on writing and refactoring clean, reusable, and scalable code in various technologies, applying good practices and development standards.",
-    "Banner.ActionBtn": "Get in touch",
+    "Banner.Pretitle": "The Nerdy Guy You Need",
+    "Banner.Description": "I have extensive experience in <span class='underline'>AI</span> model development, data analysis, and <span class='underline'>software engineering</span>. As the founder of Nemo.AI, I use <span class='underline'>AI</span> to drive innovation in sustainable fisheries. After 8 years of mastering beer pong, spritzing, and sangria-making, I’ve found that leadership and leading by example are key to pairing with solid <span class='underline'>team-working</span> skills.",
+    "Banner.ActionBtn": "Get a Spritz, ups in touch!",
 
     "AboutMe.Title": "About me",
     "AboutMe.Paragraphs": [
-        "In my career, I've covered many roles: <span class='underline'>Data Scientist</span>, <span class='underline'>Founder & CEO</span>, and <span class='underline'>AI Innovator</span>. I love contributing my knowledge to create new things that help solve problems.",
-        "My capabilities also include implementing improvements in systems, optimizing processes, and suggesting and executing ideas that add value to the projects I'm working on.",
-        "I also work on personal projects, whether as a hobby or for practical use.",
-        "Some of the technologies that I have trained and worked on include (but are not limited to):"
+        "In my <span class='underline'>career</span>, I’ve flitted through various roles as a <span class='underline'>Data Scientist</span> across diverse industries. My special skill is <span class='underline'>dreaming up ideas</span>—not always deeply considered, but undeniably <span class='underline'>brilliant</span> at times. Take <span class='underline'>Nemo</span>, for example. As <span class='underline'>founder and CEO</span>, I’m still waiting for my first penny. Nemo aims to use <span class='underline'>artificial intelligence</span> to boost the <span class='underline'>sustainability</span>, <span class='underline'>efficiency</span>, and <span class='underline'>profitability</span> of fisheries. For more details, do visit <a href=\"http://nemoai.eu\" class='underline'>nemoai.eu</a>. Give me a problem, and I’ll tackle it with AI.",
+        "Some of the technologies I’ve worked with include (but are not limited to):"
     ],
 
     "Experience.Title": "Experience",
@@ -194,9 +192,9 @@
         }
     ],
     "Contact.Pretitle": "What’s Next",
-    "Contact.Title": "Get in touch!",
+    "Contact.Title": "Let's have a beer!",
     "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
-    "Contact.Btn": "Say Hello"
+    "Contact.Btn": "Cheers"
 
 
 }

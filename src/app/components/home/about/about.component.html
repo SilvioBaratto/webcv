@@ -9,24 +9,42 @@
             <div class="row">
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <div class="about-description">
-                        <p *ngFor='let text of "AboutMe.Paragraphs" | translate' [innerHTML]="text" data-aos="fade-up" data-aos-duration="1000">
-                            I hold a Master’s degree in Data Science and Scientific Computing, with experience in AI model development, data analytics, and software engineering. As the Founder of Nemo.AI, I want to leverage the power of artificial intelligence to drive innovation in sustainable fishing. With a strong background in deep learning, natural language processing (NLP), and generative AI, I am passionate about developing cutting-edge solutions that balance economic growth with environmental conservation. At Nemo.AI, our mission is to harness AI technology to revolutionize the fishing industry, promoting sustainable practices that ensure the health of marine ecosystems while enhancing the economic viability of fishing communities.
+                        <p *ngFor='let text of "AboutMe.Paragraphs" | translate' [innerHTML]="text" data-aos="fade-up"
+                            data-aos-duration="1000">
+                            I hold a Master’s degree in Data Science and Scientific Computing, with experience in AI
+                            model development, data analytics, and software engineering. As the Founder of Nemo.AI, I
+                            want to leverage the power of artificial intelligence to drive innovation in sustainable
+                            fishing. With a strong background in deep learning, natural language processing (NLP), and
+                            generative AI, I am passionate about developing cutting-edge solutions that balance economic
+                            growth with environmental conservation. At Nemo.AI, our mission is to harness AI technology
+                            to revolutionize the fishing industry, promoting sustainable practices that ensure the
+                            health of marine ecosystems while enhancing the economic viability of fishing communities.
                         </p>
                         <ul class="skills-list" data-aos="fade-up">
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Reinforcement Learning</span></li>
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Probabilistic Machine Learning</span></li>
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Natural Language Processing</span></li>
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Deep Learning</span></li>
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Data Analytics</span></li>
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">AI Model Development</span></li>
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Software Engineering</span></li>
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Sustainable Fishing Solutions</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Reinforcement Learning</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Probabilistic Machine Learning</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Natural Language Processing</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Deep Learning</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Data Analytics</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">AI Model Development</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Software Engineering</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Sustainable Fishing Solutions</span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 mt-4 mt-md-0 text-center" data-aos="fade-up" data-aos-duration="1000">
                     <div class="about-img-container">
-                        <img (click)='analyticsService.sendAnalyticEvent("click_image", "about", "image")' class="rounded" width="400" height="300" src="assets/images/silvio.jpg" alt="Silvio Baratto Roldan">
+                        <img (click)='analyticsService.sendAnalyticEvent("click_image", "about", "image")'
+                            class="rounded" width="400" height="400" src="assets/images/famelab.png"
+                            alt="Silvio Baratto Roldan">
                     </div>
                 </div>
             </div>
