@@ -2,9 +2,9 @@
 
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
+import { inject } from '@vercel/analytics';
 
 if (environment.production) {
   enableProdMode();
@@ -13,10 +13,6 @@ if (environment.production) {
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 
-import { inject } from '@vercel/analytics';
-
-if (environment.production) {
-  inject({ mode: 'production' });
-} else {
-  inject({ mode: 'development' });
-}
+inject({
+  mode: environment.production ? 'production' : 'development',
+});
