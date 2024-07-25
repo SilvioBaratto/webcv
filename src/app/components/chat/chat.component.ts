@@ -9,6 +9,7 @@ import { ChatService } from '../../services/chat/chat.service';
 export class ChatComponent implements OnInit {
   messages: { sender: string, text: string }[] = [];
   messageText: string = '';
+  displayedText: string = '';
 
   constructor(private chatService: ChatService) { }
 
@@ -21,8 +22,13 @@ export class ChatComponent implements OnInit {
       this.messageText = '';
 
       this.chatService.sendMessage(userMessage.text).subscribe(response => {
-        const botMessage = { sender: 'Bot', text: response };
-        this.messages.push(botMessage);
+        this.displayedText = '';
+        this.chatService.getTypingObservable(response).subscribe(word => {
+          this.displayedText += word;
+        }, null, () => {
+          const botMessage = { sender: 'Bot', text: this.displayedText };
+          this.messages.push(botMessage);
+        });
       });
     }
   }

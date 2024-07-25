@@ -23,9 +23,8 @@
             "Title": "Data Scientist",
             "Date": "March 2024 - Present",
             "Description": [
-                "Developed a GPT-2 PyTorch model to solve naming convention problems in financial datasets, improving data quality and compliance.",
-                "Developed a sentiment analysis tool for surveys.",
-                "Metadata management and maintenance."
+                "I have a sneaking suspicion that next time I suggest implementing AI, my colleagues will hand me my marching orders. I'll keep you updated on my survival. Seriously though, I've mentioned AI here more than during my entire master's.",
+                "I even built a GPT-2 model from scratch—because who needs Hugging Face when you can struggle yourself? The model handles naming conventions for those who can't write bizarre codes. Check out at https://bird.ecb.europa.eu/."
             ]
         },
         {
@@ -33,7 +32,8 @@
             "Title": "Founder & CEO",
             "Date": "June 2023 - Present",
             "Description": [
-                "At Nemo.AI, we use artificial intelligence to improve the sustainability, efficiency, and profitability of fishing."
+                "Alright, so here's the deal with Nemo. I don't poke fun at him because he's my baby. Yes, I may have written Founder & CEO on LinkedIn, but we're not even a Ltd. Yet. The idea is brilliant though. The project aims to revolutionise the Adriatic Sea fishing industry with AI-driven software.",
+                "I've been toiling away for a year without seeing a single penny. But if you're an investor, how about chucking a million my way? I'll pay you back, pinky promise. Kiss kiss!"
             ]
         },
         {
@@ -41,7 +41,8 @@
             "Title": "Data Scientist",
             "Date": "November 2023 - February 2024",
             "Description": [
-                "Contributed to the development of a portfolio optimization software (WebAPP) using Python, Streamlit, and Flask."
+                "Oh, this experience was a hoot! I dealt with bizarre folks who thought I was some kind of deity, but I was really just ChatGPT (haha). No, seriously, it was the most underpaid gig imaginable, but I felt like a proper finance bro. I picked up loads of useful skills I still use today.",
+                "And if anyone from Generali is reading this, just know that as soon as an investor throws some cash my way, I'm snatching up Mattia Vallicella for Team Nemo."
             ]
         },
         {
@@ -49,9 +50,8 @@
             "Title": "Logistics Automation Specialist",
             "Date": "March 2021 - September 2021",
             "Description": [
-                "Managed the successful implementation of two industrial logistics projects utilizing AGV (autonomous guided vehicle) technology (ASTI) at both Agordo and Sedico sites.",
-                "Conducted daily KPI analysis in Excel to optimize production processes and identify areas for improvement during the Ramp-Up and Production phases.",
-                "Utilized machine learning techniques, such as Random Forest and Naive Bayes, to prevent maintenance issues."
+                "Alright, moving to Belluno was the abroad experience that left the biggest mark on me. Yet again, I was an underpaid intern (is it just me, or is it Italy?). The work was actually pretty cool though—I was basically a project manager, but with an intern’s paycheck. I spent my days chatting with loads of people (clocking in 20K steps daily!).",
+                "The crowning glory of this experience? I met Del Vecchio. Now that's a proper flex!"
             ]
         }
     ],
@@ -59,141 +59,52 @@
     "FeatureProjects.Title": "My projects",
     "FeatureProjects.Label": "Featured Project",
     "FeatureProjects.Projects": [{
-        "Title": "Gisselle",
-        "Description": "Web application for internal company management that covers sales, billing, and extensive and complex tracking departments, made with <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>. It works with <span class='underline'>websockets</span>, <span class='underline'>schedules</span>, <span class='underline'>Laravel jobs</span>, integrations with WordPress, Zadarma, LiveConnect, etc.",
+        "Title": "Nemo.AI",
+        "Description": "In 1970, 91% of marine resources were fished sustainably. In 2020, only 64% of the oceans were sustainable, with 35% overfished. Global fisheries are in crisis: shrinking fleets and fishermen demanding technology. Nemo.AI wants to help fishermen find Maximum Sustainable Yield (MSY), using artificial intelligence to predict the abundance and market value of fish. This not only optimizes fishing, but also protects marine ecosystems.",
         "imgs": [
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115702.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115829.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png"
+            "assets/images/nemoai/nemoai.png"
         ],
-        "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        "Technologies": ["Angular", "Django", "PyTorch", "Angular Material"]
         },
         
         {
-          "Title": "Emelteciot",
-          "Description": "Monitoring application for data consultation, made with <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>. It applies the <span class='underline'>chart.js</span> graphics library",
+          "Title": "FantaCreator",
+          "Description": "Create, Play, Share. I cannot tell you more than that.",
           "imgs": [
-              "assets/images/proyex2/6d7d8f04-f1f0-40c7-afbb-d2944cdb4d9c.png",
-              "assets/images/proyex2/849c117f-bed9-4406-9c13-c8669f655acc.png",
-              "assets/images/proyex2/62cdf90c-6196-4a6e-b639-8919cda4f749.png",
-              "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923.png",
-              "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923 (1).png"
+                "assets/images/fantacreator/fantacreator.png"
           ],
-          "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-        },
-        
-        {
-          "Title": "Agrourbana",
-          "Description": "Monitoring application built from scratch with auth module, <span class='underline'>configurable graphs</span>, <span class='underline'>configurable alarms</span>, and <span class='underline'>user management</span>. It also has reactive form logic for configuring parameters.",
-          "imgs": [
-              "assets/images/agrourbana/agrourbana1.png",
-              "assets/images/agrourbana/agrourbana2.png",
-              "assets/images/agrourbana/agrourbana3.png",
-              "assets/images/agrourbana/agrourbana4.png",
-              "assets/images/agrourbana/agrourbana5.png"
-          ],
-          "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-        },
-        {
-            "Title": "Tu super plan",
-            "Description": "Health plan quote that has a search engine with which advanced queries are made. Plans are displayed based on the user's age, monthly income, and location. It has <span class='underline'>online chat</span, <span class='underline'>contact form</span>, <span class='underline'>notification system by whatsapp and mail</span>, <span class='underline'>auth</span>, and <span class='underline'>internet information management through the role of administrator.</span>",
-            "imgs": [
-                "assets/images/tusuperplan/tusuperplan1.png",
-                "assets/images/tusuperplan/tusuperplan2.png",
-                "assets/images/tusuperplan/tusuperplan3.png",
-                "assets/images/tusuperplan/tusuperplan4.png",
-                "assets/images/tusuperplan/tusuperplan5.png"
-            ],
-            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-        },
-        {
-            "Title": "Proyexiot",
-            "Description": "Data monitoring platform belonging to water wells, tugboats, and various installations made from scratch with auth module, <span class='underline'>configurable graphics</span>, <span class='underline'>configurable alarms</span>, <span class='underline'>user management</span>, and <span class='underline'>geolocation with openlayers.</span>",
-            "imgs": [
-                "assets/images/proyex/proyex1.png",
-                "assets/images/proyex/proyex2.png",
-                "assets/images/proyex/proyex3.png",
-                "assets/images/proyex/proyex4.png",
-                "assets/images/proyex/proyex5.png",
-                "assets/images/proyex/proyex6.png",
-                "assets/images/proyex/proyex7.png",
-                "assets/images/proyex/proyex8.png",
-                "assets/images/proyex/proyex9.png",
-                "assets/images/proyex/proyex10.png",
-                "assets/images/proyex/proyex11.png",
-                "assets/images/proyex/proyex12.png"
-            ],
-            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-        },
-        {
-            "Title": "Hands game",
-            "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
-            "imgs": ["assets/images/hands-game.png"],
-            "ghLink": "https://github.com/andresjosehr/hands-game",
-            "demoLink": "https://projects.andresjosehr.com/hands-game",
-            "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
-        },
-        {
-            "Title": "Countries viewer",
-            "Description": "An interface that consumes an API of countries with which you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
-            "imgs": ["assets/images/countries-viewer.png"],
-            "ghLink": "https://github.com/andresjosehr/countries-viewer",
-            "demoLink": "https://projects.andresjosehr.com/countries-viewer",
-            "Technologies": ["Angular", "RxJS", "SASS", "API"]
+          "Technologies": ["Angular", "Django", "Angular Material"]
         }
     ],
 
 
 
-    "OtherProjects.Title": "More projects",
+    "OtherProjects.Title": "More about me",
     "OtherProjects.Projects": [{
-            "Title": "Pokemon",
-            "Description": "Pokemon search engine that uses the pokeapi. Object-oriented programming was used to organize the information of the pokemons along with their respective image.",
-            "ghLink": "https://github.com/andresjosehr/pokemon-angular",
-            "demoLink": "https://projects.andresjosehr.com/pokemon-list",
-            "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
+            "Title": "GPTGram",
+            "Description": "GPTGram is a project that combines the power of Generative Pretraining Transformers (GPT) with the versatility of Telegram's API to create a responsive and interactive chatbot.",
+            "ghLink": "https://github.com/SilvioBaratto/GPTGram",
+            "demoLink": "https://github.com/SilvioBaratto/GPTGram",
+            "Technologies": ["PyTorch", "Python", "Shell"]
         },
         {
-            "Title": "Coming soon page",
-            "Description": "Personal project of a two-column split page to be used as a 'Coming soon page'. Scheduled to be a fully responsive design. It has a form field to subscribe by email.",
-            "ghLink": "https://github.com/andresjosehr/coming-soon-page",
-            "demoLink": "https://projects.andresjosehr.com/coming-soon-page",
-            "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
+            "Title": "StockPy",
+            "Description": "Deep Learning Regression and Classification Library built on top of PyTorch and Pyro",
+            "ghLink": "https://github.com/SilvioBaratto/stockpy",
+            "demoLink": "https://github.com/SilvioBaratto/stockpy",
+            "Technologies": ["PyTorch", "PyRo", "Python"]
         },
         {
-            "Title": "Four card feature section",
-            "Description": "A single page that has a minimal design, listing four features on four cards. Input animations are done with angular animations.",
-            "ghLink": "https://github.com/andresjosehr/fourd-card-feature-section",
-            "demoLink": "https://projects.andresjosehr.com/four-card-feature-section",
-            "Technologies": ["Angular", "SASS", "CSS GRID"]
-        },
-        {
-            "Title": "Social proof section",
-            "Description": "Personal project of a page designed from a Figma layout. Angular was used for development together with SASS and CSS GRID.",
-            "ghLink": "https://github.com/andresjosehr/social-proof-section",
-            "demoLink": "https://projects.andresjosehr.com/social-proof-section",
-            "Technologies": ["Angular", "CSS GRID", "GIT"]
-        },
-        {
-            "Title": "FAQ accordion card",
-            "Description": "FAQ accordion with logic and animations made in Angular.",
-            "ghLink": "https://github.com/andresjosehr/faq-accordion",
-            "demoLink": "https://proyectos.andresjosehr.com/faq-accordion",
-            "Technologies": ["Angular", "CSS GRID", "Angular animations"]
-        },
-        {
-            "Title": "Profile card",
-            "Description": "Simple one-page design that features a profile letter with basic information about a person.",
-            "ghLink": "https://github.com/andresjosehr/profile-card-component",
-            "demoLink": "https://proyectos.andresjosehr.com/profile-card-component",
-            "Technologies": ["Angular", "SASS", "GIT"]
+            "Title": "NBA-Playoff-prediction",
+            "Description": "The goal of this project is to predict the final outcome of the playoffs using the official statistics of all the games played by the NBA from January 2004 to March 2021. ",
+            "ghLink": "https://github.com/SilvioBaratto/NBA-Playoff-prediction",
+            "demoLink": "https://github.com/SilvioBaratto/NBA-Playoff-prediction",
+            "Technologies": ["Scikit-Learn", "Python"]
         }
     ],
     "Contact.Pretitle": "What’s Next",
     "Contact.Title": "Let's have a beer!",
-    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Content": "Or just send me money to buy a porsche. I'm open to both.",
     "Contact.Btn": "Cheers"
 
 

@@ -7,7 +7,6 @@ import { concatMap, delay, map } from 'rxjs/operators';
 })
 export class ChatService {
   private jokes: string[] = [
-    // "What is the difference between a priest and Acne. At least facial acne waits for the kid to reach puberty before it comes all over their face.",
     "My grandpa always said, Make sure you leave this world better than you found it. So, in his honor, I've been burying all my problems in the backyard. Now my garden's flourishing, and my therapist says I've really blossomed into a well-adjusted individual, though I'm not sure what'll happen when those skeletons start sprouting.",
     "If you're still stuck in a cycle of comparison, measuring your worth against others, it's time to hit pause and remember, you're a limited edition. Don't let anyone dull your sparkle.",
     "I am so tired. I barely slept last night. I was thinking about someone. What a waste of time. Don't be like me, if you ever feeling down. Just remember, there is love without sex. And there is sex without love. And there is you, without both.",
@@ -28,7 +27,7 @@ export class ChatService {
     "What does the cop say when he shoots a ginger person? Well, I guess orange is the new black.",
     "What did the Secret Service say to Donald Trump during his assassination attempt? Donald! Duck",
     "Humor jokes are just like those Make-A-Wish kids, because they never get old! ",
-    "What's the difference between a potato and your sister? One is fat, lumpy, and full of carbs. The other is a potato.",  
+    "What's the difference between a potato and your sister? One is fat, lumpy, and full of carbs. The other is a potato.",
   ];
 
   private usedJokes: Set<string> = new Set();
