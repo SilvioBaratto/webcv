@@ -20,14 +20,14 @@ export class ChatService {
     "I started to understand something. The friendzone is basically like when someone turns you down for a job, but then has the audacity to call you every single week to complain about the guy they hired.",
     "When you think about it, dating is a lot like grocery shopping. You know what you should be looking for, but all bets are off when you see something delicious and bad for you.",
     "Here is your question of the day. You've been given a red button, and if you press it, you have a 70% chance of getting a billion dollars on the spot, and a 30% chance that your heart will stop immediately. So, would you press it?",
-    "You know, I'm starting to think that the main problem nowadays is that men are being told what a real man is by a woman who had no father.",
-    "Here's a question for ya. What does every woman have and it start with a V? And that she can use it to get what she wants? I know you're thinking of one thing, you sneaky bastard. But no, it's not her voice. It's the victim card.",
+    // "You know, I'm starting to think that the main problem nowadays is that men are being told what a real man is by a woman who had no father.",
+    // "Here's a question for ya. What does every woman have and it start with a V? And that she can use it to get what she wants? I know you're thinking of one thing, you sneaky bastard. But no, it's not her voice. It's the victim card.",
     "They say money can't buy happiness, but have you ever seen someone frown on a jet ski? Yeah, me neither. So, if you're feeling blue, just remember, you are not depressed, you are just broke.",
     "Two things you shouldn't post on social media. First, your money. I don't want to see your flashy cars or the fancy meals in some restaurant. Keep that to yourself, please. The second thing you shouldn't be posting on social media is your partner, simply because you don't have one.",
-    "What does the cop say when he shoots a ginger person? Well, I guess orange is the new black.",
+    // "What does the cop say when he shoots a ginger person? Well, I guess orange is the new black.",
     "What did the Secret Service say to Donald Trump during his assassination attempt? Donald! Duck",
     "Humor jokes are just like those Make-A-Wish kids, because they never get old! ",
-    "What's the difference between a potato and your sister? One is fat, lumpy, and full of carbs. The other is a potato.",
+    // "What's the difference between a potato and your sister? One is fat, lumpy, and full of carbs. The other is a potato.",
   ];
 
   private usedJokes: Set<string> = new Set();
