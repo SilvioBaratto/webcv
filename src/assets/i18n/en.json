@@ -1,21 +1,18 @@
 {
-    "Header.Item1" : "About me",
-    "Header.Item2" : "Experience",
-    "Header.Item3" : "Projects",
-    "Header.Item4" : "Contact",
-    "Header.cvBtn" : "Resume",
+    "Header.Item1": "About me",
+    "Header.Item2": "Experience",
+    "Header.Item3": "Projects",
+    "Header.Item4": "Contact",
+    "Header.cvBtn": "Resume",
     "Header.cvName": "CV_Silvio.pdf",
-
     "Banner.Pretitle": "The Nerdy Guy You Need",
-    "Banner.Description": "I have extensive experience in <span class='underline'>AI</span> model development, data analysis, and <span class='underline'>software engineering</span>. As the founder of Nemo.AI, I use <span class='underline'>AI</span> to drive innovation in sustainable fisheries. After 8 years of mastering beer pong, spritzing, and sangria-making, I’ve found that leadership and leading by example are key to pairing with solid <span class='underline'>team-working</span> skills.",
-    "Banner.ActionBtn": "Get a Spritz, ups in touch!",
-
+    "Banner.Description": "Data scientist with experience developing AI-powered systems. Worked on projects involving automation, predictive analysis, and real-time monitoring across industries such as finance, logistics, and environmental sustainability.",
+    "Banner.ActionBtn": "Get in touch!",
     "AboutMe.Title": "About me",
     "AboutMe.Paragraphs": [
-        "In my <span class='underline'>career</span>, I’ve flitted through various roles as a <span class='underline'>Data Scientist</span> across diverse industries. My special skill is <span class='underline'>dreaming up ideas</span>—not always deeply considered, but undeniably <span class='underline'>brilliant</span> at times. Take <span class='underline'>Nemo</span>, for example. As <span class='underline'>founder and CEO</span>, I’m still waiting for my first penny. Nemo aims to use <span class='underline'>artificial intelligence</span> to boost the <span class='underline'>sustainability</span>, <span class='underline'>efficiency</span>, and <span class='underline'>profitability</span> of fisheries. For more details, do visit <a href=\"http://nemoai.eu\" class='underline'>nemoai.eu</a>. Give me a problem, and I’ll tackle it with AI.",
-        "Some of the technologies I’ve worked with include (but are not limited to):"
+        "I’m passionate about using data to tackle real-world problems and enjoy learning new ways to do it better. Always looking for ways to improve processes and systems through technology.",
+        "Some of the technologies I've had the chance to work with include (but aren’t limited to):"
     ],
-
     "Experience.Title": "Experience",
     "Experience.Jobs": [
         {
@@ -23,17 +20,9 @@
             "Title": "Data Scientist",
             "Date": "March 2024 - Present",
             "Description": [
-                "I have a sneaking suspicion that next time I suggest implementing AI, my colleagues will hand me my marching orders. I'll keep you updated on my survival. Seriously though, I've mentioned AI here more than during my entire master's.",
-                "I even built a GPT-2 model from scratch—because who needs Hugging Face when you can struggle yourself? The model handles naming conventions for those who can't write bizarre codes. Check out at https://bird.ecb.europa.eu/."
-            ]
-        },
-        {
-            "Tab": "Nemo.AI",
-            "Title": "Founder & CEO",
-            "Date": "June 2023 - Present",
-            "Description": [
-                "Alright, so here's the deal with Nemo. I don't poke fun at him because he's my baby. Yes, I may have written Founder & CEO on LinkedIn, but we're not even a Ltd. Yet. The idea is brilliant though. The project aims to revolutionise the Adriatic Sea fishing industry with AI-driven software.",
-                "I've been toiling away for a year without seeing a single penny. But if you're an investor, how about chucking a million my way? I'll pay you back, pinky promise. Kiss kiss!"
+                "Developed a GPT-2 PyTorch model to improve data quality and compliance in financial datasets by solving naming convention problems.",
+                "Created a sentiment analysis tool for surveys, enhancing the ECB’s analytical capabilities.",
+                "Managed metadata maintenance and developed a Python library to produce logical transformation rules for FinREP, focusing on derivation and generation rules."
             ]
         },
         {
@@ -41,8 +30,8 @@
             "Title": "Data Scientist",
             "Date": "November 2023 - February 2024",
             "Description": [
-                "Oh, this experience was a hoot! I dealt with bizarre folks who thought I was some kind of deity, but I was really just ChatGPT (haha). No, seriously, it was the most underpaid gig imaginable, but I felt like a proper finance bro. I picked up loads of useful skills I still use today.",
-                "And if anyone from Generali is reading this, just know that as soon as an investor throws some cash my way, I'm snatching up Mattia Vallicella for Team Nemo."
+                "Contributed to the development of a portfolio optimization software (WebAPP) using Python, Streamlit, and Flask.",
+                "Implemented machine learning techniques to improve financial decision-making processes."
             ]
         },
         {
@@ -50,62 +39,78 @@
             "Title": "Logistics Automation Specialist",
             "Date": "March 2021 - September 2021",
             "Description": [
-                "Alright, moving to Belluno was the abroad experience that left the biggest mark on me. Yet again, I was an underpaid intern (is it just me, or is it Italy?). The work was actually pretty cool though—I was basically a project manager, but with an intern’s paycheck. I spent my days chatting with loads of people (clocking in 20K steps daily!).",
-                "The crowning glory of this experience? I met Del Vecchio. Now that's a proper flex!"
+                "Successfully managed the implementation of two industrial logistics projects utilizing AGV (autonomous guided vehicle) technology at both Agordo and Sedico sites.",
+                "Conducted daily KPI analysis in Excel to optimize production processes and identify areas for improvement during the Ramp-Up and Production phases.",
+                "Applied machine learning techniques such as Random Forest and Naive Bayes to prevent maintenance issues, contributing to improved operational efficiency."
             ]
         }
     ],
-
     "FeatureProjects.Title": "My projects",
     "FeatureProjects.Label": "Featured Project",
-    "FeatureProjects.Projects": [{
-        "Title": "Nemo.AI",
-        "Description": "In 1970, 91% of marine resources were fished sustainably. In 2020, only 64% of the oceans were sustainable, with 35% overfished. Global fisheries are in crisis: shrinking fleets and fishermen demanding technology. Nemo.AI wants to help fishermen find Maximum Sustainable Yield (MSY), using artificial intelligence to predict the abundance and market value of fish. This not only optimizes fishing, but also protects marine ecosystems.",
-        "imgs": [
-            "assets/images/nemoai/nemoai.png"
-        ],
-        "Technologies": ["Angular", "Django", "PyTorch", "Angular Material"]
-        },
-        
+    "FeatureProjects.Projects": [
         {
-          "Title": "FantaCreator",
-          "Description": "Create, Play, Share. I cannot tell you more than that.",
-          "imgs": [
+            "Title": "Nemo.AI",
+            "Description": "At Nemo.AI, I designed AI models to predict fish populations and identify optimal fishing zones in real time. I also built a dynamic dashboard for users, combining data from sources like Copernicus and Global Fishing Watch.",
+            "imgs": [
+                "assets/images/nemoai/nemoai.png"
+            ],
+            "Technologies": [
+                "Angular",
+                "Django",
+                "PyTorch",
+                "Angular Material"
+            ]
+        },
+        {
+            "Title": "FantaCreator",
+            "Description": "FantaCreator is a platform where users can create and manage custom fantasy games for various sports. The platform is built using Angular for the frontend, Supabase for the database, and Vercel for deployment.",
+            "imgs": [
                 "assets/images/fantacreator/fantacreator.png"
-          ],
-          "Technologies": ["Angular", "Django", "Angular Material"]
+            ],
+            "Technologies": [
+                "Angular",
+                "Django",
+                "Angular Material"
+            ]
         }
     ],
-
-
-
     "OtherProjects.Title": "More about me",
-    "OtherProjects.Projects": [{
+    "OtherProjects.Projects": [
+        {
             "Title": "GPTGram",
             "Description": "GPTGram is a project that combines the power of Generative Pretraining Transformers (GPT) with the versatility of Telegram's API to create a responsive and interactive chatbot.",
             "ghLink": "https://github.com/SilvioBaratto/GPTGram",
             "demoLink": "https://github.com/SilvioBaratto/GPTGram",
-            "Technologies": ["PyTorch", "Python", "Shell"]
+            "Technologies": [
+                "PyTorch",
+                "Python",
+                "Shell"
+            ]
         },
         {
             "Title": "StockPy",
             "Description": "Deep Learning Regression and Classification Library built on top of PyTorch and Pyro",
             "ghLink": "https://github.com/SilvioBaratto/stockpy",
             "demoLink": "https://github.com/SilvioBaratto/stockpy",
-            "Technologies": ["PyTorch", "PyRo", "Python"]
+            "Technologies": [
+                "PyTorch",
+                "PyRo",
+                "Python"
+            ]
         },
         {
             "Title": "NBA-Playoff-prediction",
             "Description": "The goal of this project is to predict the final outcome of the playoffs using the official statistics of all the games played by the NBA from January 2004 to March 2021. ",
             "ghLink": "https://github.com/SilvioBaratto/NBA-Playoff-prediction",
             "demoLink": "https://github.com/SilvioBaratto/NBA-Playoff-prediction",
-            "Technologies": ["Scikit-Learn", "Python"]
+            "Technologies": [
+                "Scikit-Learn",
+                "Python"
+            ]
         }
     ],
     "Contact.Pretitle": "What’s Next",
     "Contact.Title": "Let's have a beer!",
     "Contact.Content": "Or just send me money to buy a porsche. I'm open to both.",
     "Contact.Btn": "Cheers"
-
-
 }

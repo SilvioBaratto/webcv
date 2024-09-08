@@ -15,6 +15,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { ChatComponent } from '../chat/chat.component'; // Import ChatComponent
 import { ChatService } from '../../services/chat/chat.service'; // Import ChatService
+import { EducationComponent } from './education/education.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -29,6 +30,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     JobsComponent,
     MoreProyectsComponent,
     ProyectsComponent,
+    EducationComponent,
     ChatComponent // Declare ChatComponent here
   ],
   imports: [
